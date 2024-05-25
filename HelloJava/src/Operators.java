@@ -73,18 +73,26 @@ public class Operators {
 		// ................... INPUT ............................
 		// using Scanner class object 
 			Scanner sc = new Scanner(System.in); 
-			System.out.println("Enter your age : ");
+			// System.out.println("Enter your age : ");
 
 			// int age  = sc.nextInt(); 
 			// if(age >= 18) System.out.println("Your are eligible for voting");
 			// else System.out.println("Your are now not Eligible for voting");
 
-			final float GST = 0.18F; 
-			System.out.println("Enter your salary");
-			float salary = sc.nextFloat(); 
-			float gstTax = salary * GST; 
-			float finalSalary = salary - gstTax; 
-			System.out.println("Your Final Salary = " + finalSalary);
+			// final float GST = 0.18F; 
+			// System.out.println("Enter your salary");
+			// float salary = sc.nextFloat(); 
+			// float gstTax = salary * GST; 
+			// float finalSalary = salary - gstTax; 
+			// System.out.println("Your Final Salary = " + finalSalary);
+
+			System.out.print("Enter your name : ");
+			// String name = sc.next(); 
+			String name = sc.nextLine(); 
+			// char ch = str.charAt(0); 
+			// System.out.println(ch);
+
+			System.out.println(name);
 
 
 
