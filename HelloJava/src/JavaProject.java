@@ -52,7 +52,7 @@ public class JavaProject {
         String name = input.nextLine(); 
 
         System.out.println("Hello " + name + " !");
-        
+         
         input.close(); 
     }
 }
